@@ -1,0 +1,13 @@
+cd /f/git
+git config --global user.name "K-Tamas01"
+git config --global user.mail "korom01tamas@gmail.com"
+git clone https://github.com/K-Tamas01/N7D1L5OsGyak.git
+git init
+cd /N7D1L5OsGyak
+mkdir N7D1L5_0216
+cd /N7D1L5_0216
+touch test.txt
+git add test.txt
+git commit -m "first commit"
+git branch -M main
+git push -u origin main
