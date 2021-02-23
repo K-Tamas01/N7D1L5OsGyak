@@ -1,0 +1,27 @@
+A top command ki listáza az összes futó folyamatokat milyen folyamatok 
+futnka és vannak altatva. CPU használatot, memória használatokat.
+
+vmstat -a memória, swap io system cpu-ról ad információt. vmstat -m futó 
+folyamatok által lefoglalt memória területet a cache-n belül.
+
+w most két felhasználó van bejelentkezve az egyik virtuális gép a másik 
+egy ssh kapcsolat.
+
+w who én vagyok bejelentkezve 13 perce.
+
+uname vissza adja a gép nevét.
+
+ps-sel futó folyamatokat tudok kilistázni a képernyőre.
+
+free parancsal a szabad mem területet tudok meg vizsgálni és a csere 
+helyet.
+
+iostat háttértárolonként kilistázza írás olvasási sebességet és cpu 
+átlag használtságát.
+
+sar CPU kihasználtságot és annak felhasználása.
+
+mpstat majdnem ugyaz az mint a sar, csak kicsit bővebb.
+
+mpstat processzor magok kihasználtságát listázza ki.
+
